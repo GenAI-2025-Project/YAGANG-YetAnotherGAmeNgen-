@@ -1,1 +1,2 @@
-# YA_GANG-YetAnotherGAmeNgen-
+# YAGANG-YetAnotherGAmeNgen
+
