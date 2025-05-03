@@ -12,8 +12,11 @@ This repository contains dataset generation files, model training and finetuning
 
 ## How to Create the Dataset
 
+Configure the number of episodes and number of transitions inside the dataset files. The data will be stored in ~/dataset/ folder. Folder will be created if it doesn't exist.
+
 ```bash
-clone
+git clone https://github.com/GenAI-2025-Project/YAGANG-YetAnotherGAmeNgen-.git
+
 python3 chess_dataset.py
 python3 snake_dataset.py
 python3 car_dataset.py
