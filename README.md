@@ -12,6 +12,9 @@ This repository contains dataset generation files, model training and finetuning
 
 
 # Training
+
+This part will document in detail the setup used to create the pipeline, dataset, and models. Follow this documentation for a quick and easy setup!
+
 ## How to Create the Dataset
 
 Configure the number of episodes and number of transitions inside the python dataset files. The data will be stored in ~/dataset/ folder. dataset folder will be created if it doesn't exist.
