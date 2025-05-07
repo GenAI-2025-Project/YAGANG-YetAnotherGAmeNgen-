@@ -8,11 +8,15 @@ The models which we have trained can successfully run the following games:
 - Car Obstacle Avoid
 - Conway's Game of Life (64x64 Grid)
 
-This repository contains dataset generation files, model training and finetuning code, inference and other utilities used for documentation. We have, also, included weights of the trainined models. Inference requires 8GB of vRAM on windows computers. Inference code will run on all ARM Based MacBooks.
+This repository contains dataset generation files, model training and finetuning code, inference and other utilities used for documentation. We have, also, included weights of the trainined models. Inference requires atleast 8GB of vRAM on windows computers. Inference code will run on all ARM Based MacBooks.
 
+
+# Training
 ## How to Create the Dataset
 
-Configure the number of episodes and number of transitions inside the dataset files. The data will be stored in ~/dataset/ folder. Folder will be created if it doesn't exist.
+Configure the number of episodes and number of transitions inside the python dataset files. The data will be stored in ~/dataset/ folder. dataset folder will be created if it doesn't exist.
+
+Warning: Current configurations of number of episodes require ~700 GB of memory -- choose the episode number depending on your local machine's capacity.
 
 ```bash
 git clone https://github.com/GenAI-2025-Project/YAGANG-YetAnotherGAmeNgen-.git
