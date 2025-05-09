@@ -14,7 +14,11 @@ The models which we have trained can successfully run the following games:
 This repository contains dataset generation files, model training and finetuning code, inference and other utilities used for documentation. We have, also, included weights of the trainined models. Inference requires atleast 8GB of vRAM on windows computers. Inference code will run on all ARM Based MacBooks.
 
 Generated Images:
-![Image](https://github.com/user-attachments/assets/54efe963-45cf-44c5-9060-d9ae5c3109c4)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/00eb359e-3cd9-4607-b0ec-e96348441156" alt="Image 1" width="30%" />
+  <img src="https://github.com/user-attachments/assets/11dfb570-be7a-46b4-ac8c-e374323c58b1" alt="Image 2" width="30%" />
+  <img src="https://github.com/user-attachments/assets/54efe963-45cf-44c5-9060-d9ae5c3109c4" alt="Image 3" width="30%" />
+</p>
 
 
 ## Why a Single Diffusion Model?
