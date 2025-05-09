@@ -1,5 +1,8 @@
 # YAGANG-YetAnotherGAmeNgen
 
+[![Python 3.10](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org/)  
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE) 
+
 We build on the work of GameNGen and show that diffusion models can learn multiple games of diffrent complexities. In this repository, we have open sourced the code for the community to build upon our work.
 
 The models which we have trained can successfully run the following games:
@@ -24,7 +27,15 @@ Configure the number of episodes and number of transitions inside the python dat
 
 ```bash
 git clone https://github.com/GenAI-2025-Project/YAGANG-YetAnotherGAmeNgen-.git
+cd YAGANG
 
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+
+```bash
 python3 chess_dataset.py
 python3 snake_dataset.py
 python3 car_dataset.py
@@ -51,5 +62,5 @@ accelerate launch train.py
 # Inference
 
 1. Put the ./training_diffusion/ into your Desktop or working directory
-2. Run the above inferenc.ipynb in the working directory.
+2. Run the above inference.ipynb in the working directory.
 
