@@ -3,6 +3,12 @@
 [![Python 3.10](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org/)  
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE) 
 
+## 🔗 Model & Dataset
+
+You can find all of the model checkpoints and the compressed dataset in our Hugging Face repository:
+
+[📦 YAGANG – Yet Another Game Engine on Hugging Face](https://huggingface.co/chinmayjs/YAGANG-Yet-Another-Game-Engine)
+
 We build on the work of GameNGen and show that diffusion models can learn multiple games of diffrent complexities. In this repository, we have open sourced the code for the community to build upon our work.
 
 The models which we have trained can successfully run the following games:
