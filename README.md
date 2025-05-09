@@ -32,10 +32,24 @@ python3 game_of_life_dataset.py
 ```
 ## Finetune the VAE Decoder
 
-Stable Diffusion 1.5v is trained on real life images which have curves and irregular edges. This is not ideal for our games -- the games we choose have lots of straight lines and 90 degree edges.
+Stable Diffusion 1.5v VAE is trained on real life images which have curves and irregular edges. This is not ideal for our games -- the games we choose have lots of straight lines and 90 degree edges.
 
 By Finetuning the VAE decoder, we preserve the VAE encoder's downsampling ability and enchance the decoder's upsampling ability for our game domain.
 
 ```bash
 CUDA_VISIBLE_DEVICES="0" python3 finetune_decoder.py
 ```
+
+## Train the Unet
+
+We will repurpose the stable diffusion 1.5v Unet to predict next frame by sending a previous latent as input conditioned on the previous action. The code will create a new file and dump checkpoints into. Restarting training will also be done from the checkpoint. We trained the model for 10 epochs on four Nvidia H100 GPUs for 20 hours.
+
+```bash
+accelerate launch train.py
+```
+
+# Inference
+
+1. Put the ./training_diffusion/ into your Desktop or working directory
+2. Run the above inferenc.ipynb in the working directory.
+
