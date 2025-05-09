@@ -19,7 +19,8 @@ This part will document in detail the setup used to create the pipeline, dataset
 
 Configure the number of episodes and number of transitions inside the python dataset files. The data will be stored in ~/dataset/ folder. dataset folder will be created if it doesn't exist.
 
-Warning: Current configurations of number of episodes require ~700 GB of memory -- choose the episode number depending on your local machine's capacity.
+> [!WARNING]
+> Current configuration of number of episodes require ~700 GB of memory -- choose the episode number depending on your local machine's capacity.
 
 ```bash
 git clone https://github.com/GenAI-2025-Project/YAGANG-YetAnotherGAmeNgen-.git
