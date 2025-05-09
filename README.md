@@ -36,5 +36,5 @@ Stable Diffusion 1.5v is trained on real life images which have curves and irreg
 By Finetuning the VAE decoder, we preserve the VAE encoder's downsampling ability and enchance the decoder's upsampling ability for our game domain.
 
 ```bash
-CUDA_VISIBLE_DEVICES="0" python3 vae.py
+CUDA_VISIBLE_DEVICES="0" python3 finetune_decoder.py
 ```
