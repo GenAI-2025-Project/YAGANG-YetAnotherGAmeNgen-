@@ -13,7 +13,11 @@ The models which we have trained can successfully run the following games:
 
 This repository contains dataset generation files, model training and finetuning code, inference and other utilities used for documentation. We have, also, included weights of the trainined models. Inference requires atleast 8GB of vRAM on windows computers. Inference code will run on all ARM Based MacBooks.
 
-## Why a Single Diffusion Model Makes Sense
+Generated Images:
+![Image](https://github.com/user-attachments/assets/54efe963-45cf-44c5-9060-d9ae5c3109c4)
+
+
+## Why a Single Diffusion Model?
 
 - Shared Visual & Temporal Priors
    Diffusion models excel at learning pixel‑level structures and motion dynamics. A single model can capture these common patterns.
