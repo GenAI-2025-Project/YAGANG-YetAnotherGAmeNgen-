@@ -15,7 +15,7 @@ This repository contains dataset generation files, model training and finetuning
 
 This part will document in detail the setup used to create the pipeline, dataset, and models. Follow this documentation for a quick and easy setup!
 
-## How to Create the Dataset
+## Create the Dataset
 
 Configure the number of episodes and number of transitions inside the python dataset files. The data will be stored in ~/dataset/ folder. dataset folder will be created if it doesn't exist.
 
@@ -28,4 +28,13 @@ python3 chess_dataset.py
 python3 snake_dataset.py
 python3 car_dataset.py
 python3 game_of_life_dataset.py
+```
+## Finetune the VAE Decoder
+
+Stable Diffusion 1.5v is trained on real life images which have curves and irregular edges. This is not ideal for our games -- the games we choose have lots of straight lines and 90 degree edges.
+
+By Finetuning the VAE decoder, we preserve the VAE encoder's downsampling ability and enchance the decoder's upsampling ability for our game domain.
+
+```bash
+CUDA_VISIBLE_DEVICES="0" python3 vae.py
 ```
