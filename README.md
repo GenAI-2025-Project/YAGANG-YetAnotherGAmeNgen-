@@ -114,11 +114,12 @@ accelerate launch train.py
 If you use YAGANG in your research, please cite:
 
 ```bibtex
-@software{yagang2025,
-  author       = {Chinmay S, Rachit M,  Sharaajan G, and Anok S},
-  title        = {YAGANG: Yet Another Game NGen},
-  year         = 2025,
-  publisher    = {GitHub},
-  url          = {https://github.com/GenAI-2025-Project/YAGANG-YetAnotherGAmeNgen-}
+```bibtex
+@misc{Sultanpuri2025YAGANGCode,
+  author       = {Sultanpuri, Chinmay and Malya, Rachit and Gupta, Shraajan and Surpur, Anok and Kulkarni, Uday},
+  title        = {{YAGANG - Yet Another GAmeNgen: A Diffusion-Based Interactive Simulator for Multi-Game Generation - Code Repository}},
+  year         = {2025},
+  howpublished = {\url{https://github.com/GenAI-2025-Project/YAGANG-YetAnotherGAmeNgen-}},
+  note         = {Accessed: [Users can fill in the date they accessed it]}
 }
 ```
