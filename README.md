@@ -116,7 +116,7 @@ If you use YAGANG in your research, please cite:
 ```bibtex
 ```bibtex
 @misc{Sultanpuri2025YAGANGCode,
-  author       = {Sultanpuri, Chinmay and Malya, Rachit and Gupta, Shraajan and Surpur, Anok and Kulkarni, Uday},
+  author       = {Sultanpuri, Chinmay and Malya, Rachit and Gupta, Shraajan and Surpur, Anokh },
   title        = {{YAGANG - Yet Another GAmeNgen: A Diffusion-Based Interactive Simulator for Multi-Game Generation - Code Repository}},
   year         = {2025},
   howpublished = {\url{https://github.com/GenAI-2025-Project/YAGANG-YetAnotherGAmeNgen-}},
